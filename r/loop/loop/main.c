@@ -1,29 +1,27 @@
 #include <stdio.h>
 int main()
 {
-    int x;
-    for (x=0; x<=10; x++)
-    {
-        printf("120 X %d= %d\n",x,120*x);
-    }
+    int x,y;
     
-   //while
-    
-    x=0;
-    while (x<100)
+    /*for (x=0,y=0;x<10,y<10;x++,y--)
     {
-        printf("  %d\n",x);
+        printf("%d %d\n",x,y);
+    } */
+    
+    //while
+    
+    x=1;
+    while (x<10)
+    {
+        printf("%d\n",x);
         x++;
     }
     
     //do
-    
-    
-    x=10;
-    do {
-        printf("%d\n",x);
+    x=40;
+    do
+    {
+        printf("Hello\n");
         x++;
-        
-    } while (x<50);
-    
+    } while (x<10);
 }
