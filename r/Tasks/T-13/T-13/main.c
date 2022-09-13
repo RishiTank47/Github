@@ -6,7 +6,7 @@ int main()
     printf("Enter any number:");
     scanf("%d",n); //1947
     
-    lastdigit = n%10;
+    lastdigit = n%10; 
     
     
     
