@@ -11,7 +11,7 @@ public:
     
     string bank_name="SBI";
     string IFSC="SB2412R";
-    int  acc_no[11]={12345678910};
+    int  acc_no=123457685686;
     
 };
 
