@@ -26,10 +26,11 @@ class B
     int someint;
     
 public:
-       B()
+       B(int S)
     {
-           cout<<"Write sonmethig:";
-           cin>>someint;
+           someint=S;
+           cout<<someint<<endl;
+           
        }
     
     B(B &obj123)
@@ -42,6 +43,9 @@ public:
 
 int main()
 {
-    B obj;
-   
+    B x(123);
+    B y(x);
+    
+    
+    
 }
