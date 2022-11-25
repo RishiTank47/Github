@@ -1,0 +1,106 @@
+1.Are the HTML tags and elements the same thing?
+
+  NO
+
+2. What are tags and attributes in HTML?
+
+tags- tags are starting and ending parts of HTML.  <P></p>
+
+attributes- It is used to define the caracter of HTML.
+            Its placed in starting tag.
+
+3.What are void elements in HTML?
+
+ Elements who has only start tag are called void.
+
+ <br>,<hr>, <img>, <input>, <link>, <base>, <meta>, <param>, 
+ <area>, <embed>, <col>, <track>, <source> etc.
+
+
+ 4.What are HTML Entities?
+
+ HTML entities are piece of taxt that begins with ampersand(&) and end with semicoon(;).
+ its use to display reserved characters.
+
+ 5.What are different types of lists in HTML?
+
+ - there are three typs of list
+   i.unordered list
+   ii.ordered list
+   iii.descreption list 
+
+ 6.What is the ‘class’ attribute in HTML?   
+  
+ - class attributes spacifies one or more classname for an element.
+
+7.What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML
+elements?
+
+- 'id' is aplly only one elemenst.
+  'class' is can aplly multiple elements.
+
+ 8.What are the various formatting tags in HTML?
+ 
+ <b>-bold taxt
+ <i>-italic
+ <em>-emphasized 
+ <del>-deleted taxt
+ <mark>-hilighted text 
+
+ 9.How is Cell Padding different from Cell Spacing?
+
+Cellspacing- define the space between individual cell
+Cellpadding- define the space between table's cell border and content present in it.
+
+10.How can we club two or more rows or columns into a single row or column in an HTML
+table?
+
+- it can done by rowpan and colspan attributes.
+
+11.What is the difference between a block-level element and an inline element?
+
+Block level- it always start frome new line. it cover space left to right as far it can go.
+inline- it never start frome new line. it only cover the space bounded by tags.
+
+12.How to create a Hyperlink in HTML?
+
+- use <a> tag to define link,then use 'href' attribute to define the link address.
+
+13.What is the use of an iframe tag?
+
+- to spacifies inline frame.
+
+14.What is the use of a span tag? Explain with example?
+
+- it use of mark up a part of text or part of document.
+
+   <p>My mother has <span style="color:blue">blue</span> eyes.</p>
+
+15.How to insert a picture into a background image of a web page?
+
+- using background image attribute.
+
+16.How are active links different from normal links?
+
+-- I dont know.
+
+17.What are the different tags to separate sections of text?
+
+-  <br>
+   <p> This contains the text in the form of a new paragraph.
+   <blockquote> It is used to define a large quoted section.
+
+18.What is SVG?
+
+-  SVG is Scalable Vector Graphics.
+
+19.What is difference between HTML and XHTML?
+
+HTML- is markup language for creating web page.
+XHTML- is strictel and more standardized version of HTML.
+
+20.What are logical and physical tags in HTML?
+
+physical tag- <p> paragraph
+              <i> Italic
+              <b> bold
