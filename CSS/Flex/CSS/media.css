@@ -1,0 +1,175 @@
+@media(max-width: 600px)
+{
+/*	.a {width: 100%}*/
+	.a1 {width: 100%}
+	.b {width: 100%}
+
+	.a12  span
+      { 
+        margin-left: 150px;
+      }
+
+     .a11 ul 
+     {
+     	display: none;
+     }
+
+     .button
+     {
+     	display: block;
+     	font-size: 39px;
+     	padding-top: 13px;
+     }
+
+     .a11 h3 a 
+     {
+     	font-size: 40px;
+     }
+
+     .a2
+     {
+     	position: absolute;
+     	right: 40px;
+     }
+
+     .b 
+     {
+     	display: block;
+     }
+
+     .b1,.b2,.b3,.b4 
+     {
+     	width: 100%;
+     }
+
+     .b1 h3 ,.b2 h3 ,.b3 h3 ,.b4 h3
+     {
+     	margin-left: 250px;
+     }
+
+     .b1 img,.b2 img,.b3 img,.b4 img 
+     {
+     	margin-left: 220px;
+     }
+
+     .b-1 
+     {
+     	position: absolute;
+     	top: 800px;
+     	left: -260px;
+     }
+
+     .b-2 
+     {
+     	display: block;
+     	width: 100%;
+     }
+
+     .b-21 
+     {
+     	width: 100%;
+     	margin-left: 0px;
+     }
+
+     .b-21 ul 
+     {
+     	display: block;
+     	padding: 0px;
+     	margin-left: 20px;
+     }
+
+     .b-21 li 
+     {
+     	padding: 20px;
+     }
+
+     .b-22 
+     {
+     	width: 90%;
+     	margin-left: 30px;
+     	margin-bottom: 70px;
+     }
+
+
+     .c1 
+     {
+     	width: 90%;
+     	margin-left: 10px;
+     }
+
+     .d1-2 
+     {
+     	position: absolute;
+     	top: 3790px;
+     }
+
+     .d2 
+     {
+     	display: block;
+     }
+
+     .d21
+     {
+     	width: 100%;
+     }
+
+     .d22,.d23,.d24
+     {
+     	display:none;
+     }
+
+     .e,.f2 
+     {
+     	display: block;
+     }
+
+     .e1 
+     {
+     	width: 100%;
+     	margin-left: 0px;
+     }
+
+     .e2 
+     {
+     	width: 90%;
+        margin-left: 20px;
+     	margin-top: 20px;
+     }
+
+     .f h2
+     {
+     	margin-left: 140px;
+     }
+
+     .f21  
+     {
+     	margin-left: 0px;
+     }
+
+     .f2 h3  
+     {
+     	margin-left: 0px;
+     }
+
+     .f21,.f22,.f23  
+     {
+     	padding-top:20px;
+     }
+
+     .f22-1 
+     {
+     	margin-right: 0px;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+}
