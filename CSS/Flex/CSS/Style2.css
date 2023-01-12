@@ -3,7 +3,7 @@
 .a 
 {
 /*	border: 1px solid;*/
-/*	height:730px;*/
+	height:730px;
 	
 	background:url(../Image/bg_1.jpg);
 	background-size: 100% 100%;
@@ -25,11 +25,6 @@
 	margin-top: 20px;
 	display: flex;
 	justify-content: space-between;
-}
-
-.button 
-{
-	display: none;
 }
 
 .a11 a
@@ -99,6 +94,17 @@
 	opacity:1;
 }
 
+.button
+{
+	display: none;
+}
+
+.menu
+{
+	position: absolute;
+
+}
+
 /*-----------------------------------------navbar-------------------------------------------------*/
 
 
@@ -124,7 +130,7 @@
 
 }
 
-.a12 span    
+.a12  span  
 {
        margin-left: 300px;
        opacity: 1;
@@ -151,25 +157,22 @@
     transform: scale(1.3);
     margin-top: 150px;
     list-style-type: none;
-/*    background-color: red ;*/
-/*    margin-right: 90px;*/
 }
 
-.a3 i 
+.a3 a  
 {
-	padding-left: 7px;
-	padding-right: 7px;
+	padding-left: 5px;
+	padding-right: 5px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	background-color: white;
-	border-radius: 10px;
+	border-radius: 30%;
 	color:black;
 }
 
-.a3 li 
+.a2 li 
 {
 	padding: 7px;
-/*	margin-right: 60px;*/
 }
 
 .a a 
@@ -278,6 +281,11 @@
 	margin-left: 0px;
 }
 
+.b-21 p  
+{
+	text-align: initial;
+}
+
 .b-21 p span 
 {
 	background-color:lightblue;
@@ -292,7 +300,7 @@
 
 .b-22 
 {
-	height: 330px;
+/*	height: 330px;*/
 /*	border: 1px solid;*/
 	width: 40%;
     margin-top: 80px;
@@ -346,6 +354,7 @@
 .c1-1 p  
 {
 	opacity: 0.6;
+	text-align: initial;
 }
 
 .c1-1 h3 
@@ -410,7 +419,7 @@
 .d1-2
 {
 	position: absolute;
-	top: 2280px;
+	top: 2400px;
 	opacity: 0.6;
 }
 
@@ -455,6 +464,7 @@
 .d21 img ,.d22 img ,.d23 img ,.d24 img 
 {
 	margin-left: 20px;
+/*	clip-path: polygon(15% 100%, 15% 89%, 76% 89%, 76% 100%);*/
 }
 
 .inner 
@@ -507,22 +517,27 @@
 	height:320px;
 	width: 35%;
 /*	border: 1px solid blue;*/
-	margin-top: 90px;
+	margin-top: 100px;
 	margin-left: 40px;
 }
 
 .e1 p,span 
 {
 	opacity:0.5;
+	text-align: initial;
 }
 
-/*-------------------------------------6th-------------------------------------------------------*/
+.e1 h3 
+{
+	margin-left: 0px;
+
+}
 
 
 .f 
 {
-/*	height: 730px;*/
-/*	border: 2px solid transparent;*/
+	height: 730px;
+	border: 2px solid transparent;
 	background-color: #efefef;
 }
 
@@ -569,6 +584,7 @@
 /*	border: 1px solid red ;*/
 	width: 25%;
 	margin-left: 140px;
+/*	text-align: initial;*/
 
 }
 
@@ -578,6 +594,7 @@
 /*	border: 1px solid red ;*/
 	width: 25%;
 /*	display: flex;*/
+    
 }
 
 .f23 
@@ -585,11 +602,6 @@
 /*	height: 500px;*/
 /*	border: 1px solid red ;*/
 	width: 25%;
-}
-
-.f21 h3,.f22 h3,.f23 h3 
-{
-	margin-left: 0px;
 }
 
 .f21 li,a 

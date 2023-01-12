@@ -59,6 +59,16 @@
      	left: -260px;
      }
 
+     .b-1 a 
+     {
+      text-align: initial;
+      padding-top:12px;
+      padding-bottom:12px;
+      padding-left: 30px;
+      padding-right: 30px;
+      border-radius: 30px;
+     }
+
      .b-2 
      {
      	display: block;
