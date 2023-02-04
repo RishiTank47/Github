@@ -7,30 +7,30 @@
 </head>
 <body>
 
-	<form>
+	<form method="post" >
 		
-		<table border="0"  cellpadding="10" cellspacing="0">
+		<table border="1"  cellpadding="10" cellspacing="0">
 			
 			<tr>
-				<td align="">
-					Name:<input type="text" name="" placeholder="Enter Your Name" required >
+				<td >
+					Name:<input type="text" name="" placeholder="Enter Your Name" required  pattern="[a-zA-Z]{3,8}">
 				</td>
 			</tr>
 
 			<tr>
-				<td align="">
-					Email:<input type="email" name="">
+				<td >
+					Email:<input type="email" name="email" required="">
 				</td>
 			</tr>
 
 			<tr>
-				<td align="">
-					Password:<input type="password" name="psw" required pattern="min 3 & max 8 Alphabet" >
+				<td >
+					Password:<input type="password" name="psw" required title ="min 3 & max 8 Alphabet" minlength="3" maxlength="8" >
 				</td>
 			</tr>
 
 			<tr>
-				<td align="">
+				<td >
 					Gender:
 					<input type="radio" name="Gender">Male
 					<input type="radio" name="Gender">Female
@@ -39,7 +39,7 @@
 			</tr>
 
 			<tr >
-				<td align="">
+				<td>
 					Languages:
 					<input type="Checkbox" name="">Gujrati
 				    <input type="Checkbox" name="">Hindi
@@ -48,19 +48,19 @@
 			</tr>
 
 			<tr>
-				<td align="">
+				<td align="right">
 					Date-Time:<input type="datetime-local" name="">
 				</td>
 			</tr>
 
 			<tr>
-				<td align="">
+				<td>
 					Upload File:<input type="file" name="">
 				</td>
 			</tr>
      
             <tr>
-            	<td align="">
+            	<td >
             		Address:<textarea rows="2" cols="7"></textarea>
             	</td>
             </tr>

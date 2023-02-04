@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Enter pin:<input type="text" id="inp">
+    <button>Submmit</button>
+    <br>
+    <br>
+
+
+    num1: <input type="text" id="n1" value="34" >
+    num2: <input type="text" id="n2" value="35">
+    <span id="res"></span>
+    <br>
+    <br>
+
+    <button onclick="sum()">+</button>
+    <button onclick="sub()">-</button>
+    <button onclick="Multi()">*</button>
+    <button onclick="Div()">/</button>
+
+
+    <script>
+
+        Number1=document.getElementById('n1');
+        Number2=document.getElementById('n2');
+        result=document.getElementById('res')
+           
+            function sum()
+           {
+               res.innerHTML= (parseInt(n1.value)  + parseInt(n2.value))
+           } 
+
+           function sub()
+           {
+               result.innerHTML =(parseInt(Number1.value) - parseInt(Number2.value))
+           }
+
+           function Multi()
+           {
+               result.innerHTML =(parseInt(Number1.value) * parseInt(Number2.value))
+           }
+
+           function Div()
+           {
+               result.innerHTML =(parseInt(Number1.value) /  parseInt(Number2.value))
+           }
+
+
+    </script>
+
+
+
+</body>
+</html>

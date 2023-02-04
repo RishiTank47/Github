@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+           <div class="class">
+
+             <img src="https://images5.alphacoders.com/289/289599.jpg"
+              alt="" id="img" height="600px" class="i">
+
+              <img src="https://www.indiacarnews.com/wp-content/uploads/2022/04/Kia-EV6-India.jpg"
+              alt="" id="img" height="600px" class="i">
+
+              
+
+              <img src="https://www.holidify.com/images/bgImages/AHMEDABAD.jpg"
+              alt="" id="img" height="600px" class="i">
+
+              <img src="https://www.w3schools.com/howto/img_forest.jpg"
+              alt="" id="img" height="600px" class="i">
+
+           </div>
+
+
+           <script>
+
+            hello=0;
+            Image=document.getElementsByClassName('i');
+
+            function hii()
+            {
+               
+               
+            //    console.log(Image)
+                   for (x=0;x<Image.length;x++)
+                   {
+                        Image[x].style.display="none";
+                   }
+                   
+                   
+                   Image[hello].style.display="block";
+                   hello ++;
+
+                   if (hello ==4)
+                   {
+                       hello=0;
+                   }
+
+                   setTimeout("hii()",1000);
+
+
+            }
+            
+            hii();
+            
+
+
+
+           </script>
+
+</body>
+</html>

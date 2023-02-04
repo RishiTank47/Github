@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+       <form  onsubmit="return required()">
+         
+        Name: <input type="text" id="name" value="" name="">
+              <span id="sp" ></span><br><br>
+
+        Password: <input type="text" id="pas">
+              <span id="sp" ></span><br><br>
+
+        Confirm Password: <input type="text" id="cpas"><br><br>
+
+        Email: <input type="text" id="mail"><br><br>
+
+        Mobile: <input type="text" id="mobile"><br><br>
+
+        <input type="Submit">
+
+       </form>
+
+       <script>
+
+        // console.log(required)
+
+                Name1=document.getElementById('name');
+                password=document.getElementById('pas');
+                cpassword=document.getElementById('cpas');
+                email=document.getElementById('mail');
+                Mobile=document.getElementById('mobile');
+                nmsp=document.getElementById('sp')
+
+                ex_name =   /^[a-zA-z]{3,5}$/;
+                ex_mobile= /^[0-9]{10}$/;
+
+                  function required()
+                  {
+                         if (Name1.value == "") 
+                         {
+                             nmsp.innerHTML="Name is required";
+                             nmsp.style.color ="red";
+                             Name1.style.border ="2px solid red";
+                             return false;
+                         }
+
+                         else
+                         {
+                             nmsp.innerHTML="";
+                             Name1.style.border="2px solid green";
+                         }
+
+                         if(!ex_name.test(Name1.value))
+                         {
+                             alert("* min 3 and max 5 letters..!");
+                             return false;
+                         }
+
+                         if (password.value == "")
+                          {
+                             alert("Password is required");
+                             return false;
+                          }
+
+                         if (password.value != cpassword.value)
+                         {
+                             alert("Password is not match");
+                             return false;
+                         } 
+
+                         if (email.value =="")
+                         {
+                            alert("Emial is required");
+                            return false;
+                         }
+
+                         if (Mobile.value =="")
+                         {
+                            alert("Mobile is required");
+                            return false;
+                         }
+
+                         if (!ex_mobile.test(Mobile.value)) 
+                         {
+                            alert("only number & max 10");
+                            return false;
+                         }
+
+                         
+                  }
+             
+       </script>
+
+
+</body>
+</html>

@@ -1,0 +1,2733 @@
+*{margin: 0px;}
+.navbar
+{
+    box-shadow:0px 0px 2px black ;
+}
+.a 
+{
+    border: 1px solid;
+    height: 50px;
+    display: flex;
+    /* background-color: black; */
+}
+
+
+.a1 
+{
+    border: 1px solid;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 10px; 
+    /* color: white; */
+}
+
+.a1 ul 
+{
+    display: inline-flex;
+    list-style-type: none;
+    /* background-color: rgb(197, 152, 152); */
+    /* margin-top: 10px; */
+}
+
+.a1 a 
+{
+    text-decoration: none;
+    padding: 15px;
+    /* color: white; */
+
+}
+
+.a1 span
+{
+    
+}
+
+.a2 
+{
+    border: 1px solid;
+    width: 50%;
+}
+
+.b
+{
+    /* height: 100px; */
+    /* border: 2px solid; */
+    display: flex;
+}
+
+.b1 
+{
+   margin-top: 26px;
+   margin-left:100px;
+   margin-top: 35px;
+}
+
+.b2 
+{
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+.c
+{
+    height: 50px;
+    /* border: 1px solid; */
+    /* box-shadow:0px 0px 5px black ; */
+    background-color: white;
+    
+
+}
+
+.c ul,a
+{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-flex;
+    padding-left: 55px;
+    padding-top: 10px;
+    color: black;
+}
+
+.c ul 
+{
+    margin-left: 100px;
+}
+
+.home ul 
+{
+   display:none;   
+   position: absolute;
+   left: 0px;
+   /* background-color: brown; */
+}
+
+
+.home:hover ul 
+{
+    display: block;
+}
+
+.home:hover  
+{
+    color: green;
+}
+
+.homepage  a 
+{
+    padding: 10px;
+    /* margin-left: 20px; */
+}
+
+.homepage:hover a 
+{
+    background-color: green;
+    color:white;
+}
+
+.news ul 
+{
+    display: none;
+    position: absolute;
+    left: -160px;
+    /* background-color: aqua; */
+    
+}
+
+.news:hover .newsdiv 
+{
+    background-color: white; 
+    height: 300px;
+     width: 900px; 
+     position: absolute;
+}
+
+.news:hover ul
+{
+    display: block;   
+}
+
+.newsli:hover a 
+{
+    /* background-color: green; */
+    /* color: white; */
+}
+
+.newsli 
+{
+    /* padding: 10px; */
+}
+
+/*---------------------------------------all------------------------------------------*/
+.all0
+{
+    padding: 10px;
+}
+.all
+{
+    height: 280px;
+    /* border: 1px solid; */
+    display: flex;
+    width: 310%;
+    margin-left: 80px;
+    margin-top: -7px;
+    display: none;
+    position:absolute;
+
+}
+
+.all0:hover .all 
+{
+    display:inline-flex;
+}
+
+/* .Fas0:hover .all 
+{
+    display: none;
+} */
+
+.all1 
+{
+    width: 25%;
+    /* border: 1px solid; */
+    overflow: hidden;
+}
+
+.all1 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.all1 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.all1 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.all1 img:hover 
+{
+       opacity: 0.7;
+}
+
+.all1 a:hover  
+{
+     color: green;
+}
+
+.all2 
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.all2 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.all2 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.all2 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.all2 img:hover 
+{
+       opacity: 0.7;
+}
+
+.all2 a:hover  
+{
+     color: green;
+}
+
+.all3 
+{
+    width:25%;
+    /* border: 1px solid; */
+}
+
+.all3 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.all3 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.all3 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.all3 img:hover 
+{
+       opacity: 0.7;
+}
+
+.all3 a:hover  
+{
+     color: green;
+}
+
+.all4 
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.all4 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.all4 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.all4 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.all4 img:hover 
+{
+       opacity: 0.7;
+}
+
+.all4 a:hover  
+{
+     color: green;
+}
+
+/*----------------------------------------ent-----------------------------------------*/
+
+.ent0 
+{
+    padding: 10px;
+}
+.ent
+{
+    height: 280px;
+    /* border: 1px solid; */
+    display: flex;
+    width: 310%;
+    margin-left: 10px;
+    margin-top: -55px;
+    display: none;
+    position:absolute;
+}
+
+
+.ent1 
+{
+    width: 25%;
+    /* border: 1px solid; */
+    overflow: hidden;
+}
+
+.ent1 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.ent1 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.ent1 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.ent1 img:hover 
+{
+       opacity: 0.7;
+}
+
+.ent1 a:hover  
+{
+     color: green;
+}
+
+.ent2 
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.ent2 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.ent2 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.ent2 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.ent2 img:hover 
+{
+       opacity: 0.7;
+}
+
+.ent2 a:hover  
+{
+     color: green;
+}
+
+.ent3 
+{
+    width:25%;
+    /* border: 1px solid; */
+}
+
+.ent3 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.ent3 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.ent3 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.ent3 img:hover 
+{
+       opacity: 0.7;
+}
+
+.ent3 a:hover  
+{
+     color: green;
+}
+
+.ent4 
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.ent4 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.ent4 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.ent4 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.ent4 img:hover 
+{
+       opacity: 0.7;
+}
+
+.ent4 a:hover  
+{
+     color: green;
+}
+
+
+.ent0:hover .ent 
+{
+    display:inline-flex; 
+}
+
+/*--------------------------------------Fas------------------------------------------*/
+
+.Fas0 
+{
+    padding: 10px;
+}
+
+.Fas 
+{
+    height: 280px;
+    /* border: 1px solid; */
+    display: flex;
+    width: 310%;
+    margin-left: 50px;
+    margin-top: -103px;
+    display: none;
+    position:absolute;
+}   
+
+.Fas1 
+{
+    width: 25%;
+    /* border: 1px solid; */
+    overflow: hidden;
+}
+
+.Fas1 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.Fas1 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.Fas1 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.Fas1 img:hover 
+{
+       opacity: 0.7;
+}
+
+.Fas1 a:hover  
+{
+     color: green;
+}
+
+.Fas2 
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.Fas2 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.Fas2 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.Fas2 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.Fas2 img:hover 
+{
+       opacity: 0.7;
+}
+
+.Fas2 a:hover  
+{
+     color: green;
+}
+
+.Fas3 
+{
+    width:25%;
+    /* border: 1px solid; */
+}
+
+.Fas3 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.Fas3 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.Fas3 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.Fas3 img:hover 
+{
+       opacity: 0.7;
+}
+
+.Fas3 a:hover  
+{
+     color: green;
+}
+
+.Fas4 
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.Fas4 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.Fas4 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.Fas4 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.Fas4 img:hover 
+{
+       opacity: 0.7;
+}
+
+.Fas4 a:hover  
+{
+     color: green;
+}
+
+
+.Fas0:hover .Fas 
+{
+    display:inline-flex; 
+}  
+
+/*---------------------------------lif---------------------------------------*/
+
+
+.lif0 
+{
+    padding: 10px;
+}
+
+.lif
+{
+    height: 280px;
+    /* border: 1px solid; */
+    display: flex;
+    width: 310%;
+    margin-left: 37px;
+    margin-top: -151px;
+    display: none;
+    position:absolute;
+}   
+
+.lif1 
+{
+    width: 25%;
+    /* border: 1px solid; */
+    overflow: hidden;
+}
+
+.lif1 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.lif1 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.lif1 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.lif1 img:hover 
+{
+       opacity: 0.7;
+}
+
+.lif1 a:hover  
+{
+     color: green;
+}
+
+.lif2 
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.lif2 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.lif2 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.lif2 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.lif2 img:hover 
+{
+       opacity: 0.7;
+}
+
+.lif2 a:hover  
+{
+     color: green;
+}
+
+.lif3 
+{
+    width:25%;
+    /* border: 1px solid; */
+}
+
+.lif3 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.lif3 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.lif3 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.lif3 img:hover 
+{
+       opacity: 0.7;
+}
+
+.lif3 a:hover  
+{
+     color: green;
+}
+
+.lif4 
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.lif4 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.lif4 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.lif4 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.lif4 img:hover 
+{
+       opacity: 0.7;
+}
+
+.lif4 a:hover  
+{
+     color: green;
+}
+
+
+.lif0:hover .lif 
+{
+    display:inline-flex; 
+}  
+
+
+/*-------------------------------------tec------------------------------------*/
+
+
+.tec0 
+{
+    padding: 10px;
+}
+
+.tec
+{
+    height: 280px;
+    /* border: 1px solid; */
+    display: flex;
+    width: 310%;
+    margin-left: 25.5px;
+    margin-top: -199px;
+    display: none;
+    position:absolute;
+}   
+
+.tec1 
+{
+    width: 25%;
+    /* border: 1px solid; */
+    overflow: hidden;
+}
+
+.tec1 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.tec1 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.tec1 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.tec1 img:hover 
+{
+       opacity: 0.7;
+}
+
+.tec1 a:hover  
+{
+     color: green;
+}
+
+.tec2 
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.tec2 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.tec2 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.tec2 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.tec2 img:hover 
+{
+       opacity: 0.7;
+}
+
+.tec2 a:hover  
+{
+     color: green;
+}
+
+.tec3 
+{
+    width:25%;
+    /* border: 1px solid; */
+}
+
+.tec3 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.tec3 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.tec3 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.tec3 img:hover 
+{
+       opacity: 0.7;
+}
+
+.tec3 a:hover  
+{
+     color: green;
+}
+
+.tec4 
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.tec4 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.tec4 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.tec4 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.tec4 img:hover 
+{
+       opacity: 0.7;
+}
+
+.tec4 a:hover  
+{
+     color: green;
+}
+
+
+.tec0:hover .tec 
+{
+    display:inline-flex; 
+}  
+/*-------------------------------------tra--------------------------------*/
+
+.tra0 
+{
+    padding: 10px;
+}
+
+.tra
+{
+    height: 280px;
+    /* border: 1px solid; */
+    display: flex;
+    width: 310%;
+    margin-left: 60px;
+    margin-top: -247px;
+    display: none;
+    position:absolute;
+}   
+
+.tra1 
+{
+    width: 25%;
+    /* border: 1px solid; */
+    overflow: hidden;
+}
+
+.tra1 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.tra1 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.tra1 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.tra1 img:hover 
+{
+       opacity: 0.7;
+}
+
+.tra1 a:hover  
+{
+     color: green;
+}
+
+.tra2 
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.tra2 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.tra2 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.tra2 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.tra2 img:hover 
+{
+       opacity: 0.7;
+}
+
+.tra2 a:hover  
+{
+     color: green;
+}
+
+.tra3 
+{
+    width:25%;
+    /* border: 1px solid; */
+}
+
+.tra3 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.tra3 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.tra3 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.tra3 img:hover 
+{
+       opacity: 0.7;
+}
+
+.tra3 a:hover  
+{
+     color: green;
+}
+
+.tra4 
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.tra4 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.tra4 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.tra4 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.tra4 img:hover 
+{
+       opacity: 0.7;
+}
+
+.tra4 a:hover  
+{
+     color: green;
+}
+
+
+.tra0:hover .tra 
+{
+    display:inline-flex; 
+}  
+/*--------------------------------Entertainment-------------------------*/
+
+/*--------------------------------all---------------------------------*/
+.second:hover .seconddiv 
+{
+    height: 300px;
+    width: 900px;
+    position: absolute;
+    background-color: white;
+    left: 190px;
+    box-shadow:0px 0px 1px black;
+    /* top: 216px; */
+    display: flex;
+}
+
+
+.sec-ul 
+{
+    height: 300px;
+    width: 18%;
+    /* border: 1px solid; */
+    display: none;
+}
+
+.second:hover .sec-ul
+{
+    display:block;
+}
+
+.sec-ul ul 
+{
+    display: block;
+    /* background-color:lightblue; */
+    margin-left: 0px;
+}
+
+.sec-ul li 
+{
+    padding: 10px;
+    margin-left: -55px;
+}
+
+
+/*-----------div1---------*/
+
+.sec-div 
+{
+    display: none;
+    height: 300px;
+    /* width: 75%; */
+    position: absolute;
+    margin-left: 77px;
+    margin-top: -21px;  
+} 
+
+
+.sec1:hover .sec-div
+{
+    display:inline-flex; 
+}
+
+.sec-div1
+{
+    width: 25%;
+    /* border: 1px solid; */
+
+}
+
+.sec-div1 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.sec-div1 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.sec-div1 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.sec-div1 img:hover 
+{
+       opacity: 0.7;
+}
+
+.sec-div1 a:hover  
+{
+     color: green;
+}
+
+/*------------div2-------*/
+.sec-div2
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.sec-div2 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.sec-div2 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.sec-div2 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.sec-div2 img:hover 
+{
+       opacity: 0.7;
+}
+
+.sec-div2 a:hover  
+{
+     color: green;
+}
+
+/*-------------div3---------*/
+
+.sec-div3
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+
+.sec-div3 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.sec-div3 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.sec-div3 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.sec-div3 img:hover 
+{
+       opacity: 0.7;
+}
+
+.sec-div3 a:hover  
+{
+     color: green;
+}
+
+/*--------div4--------*/
+
+.sec-div4
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+
+.sec-div4 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.sec-div4 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.sec-div4 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.sec-div4 img:hover 
+{
+       opacity: 0.7;
+}
+
+.sec-div4 a:hover  
+{
+     color: green;
+}
+ 
+
+/*----------------------------------------------game---------------------------------------------*/
+
+
+
+
+/*-----------div1---------*/
+
+.gam 
+{
+    display: none;
+    height: 300px;
+    /* width: 75%; */
+    position: absolute;
+    margin-left: 58px;
+    margin-top: -69px;
+} 
+
+
+.sec2:hover .gam
+{
+    display:inline-flex; 
+}
+
+.gam-div1
+{
+    width: 25%;
+    /* border: 1px solid; */
+
+}
+
+.gam-div1 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.gam-div1 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.gam-div1 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.gam-div1 img:hover 
+{
+       opacity: 0.7;
+}
+
+.gam-div1 a:hover  
+{
+     color: green;
+}
+
+/*------------div2-------*/
+.gam-div2
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.gam-div2 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.gam-div2 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.gam-div2 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.gam-div2 img:hover 
+{
+       opacity: 0.7;
+}
+
+.gam-div2 a:hover  
+{
+     color: green;
+}
+
+/*-------------div3---------*/
+
+.gam-div3
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+
+.gam-div3 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.gam-div3 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.gam-div3 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.gam-div3 img:hover 
+{
+       opacity: 0.7;
+}
+
+.gam-div3 a:hover  
+{
+     color: green;
+}
+
+/*--------div4--------*/
+
+.gam-div4
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+
+.gam-div4 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.gam-div4 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.gam-div4 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.gam-div4 img:hover 
+{
+       opacity: 0.7;
+}
+
+.gam-div4 a:hover  
+{
+     color: green;
+}
+ 
+
+/*-------------------------------Celebrity------------------------------*/
+
+/*-----------div1---------*/
+
+.cel 
+{
+    display: none;
+    height: 300px;
+    /* width: 75%; */
+    position: absolute;
+    margin-left: 38px;
+    margin-top: -117px;
+} 
+
+
+.sec3:hover .cel
+{
+    display:inline-flex; 
+}
+
+.cel-div1
+{
+    width: 25%;
+    /* border: 1px solid; */
+
+}
+
+.cel-div1 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.cel-div1 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.cel-div1 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.cel-div1 img:hover 
+{
+       opacity: 0.7;
+}
+
+.cel-div1 a:hover  
+{
+     color: green;
+}
+
+/*------------div2-------*/
+.cel-div2
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.cel-div2 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.cel-div2 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.cel-div2 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.cel-div2 img:hover 
+{
+       opacity: 0.7;
+}
+
+.cel-div2 a:hover  
+{
+     color: green;
+}
+
+/*-------------div3---------*/
+
+.cel-div3
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+
+.cel-div3 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.cel-div3 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.cel-div3 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.cel-div3 img:hover 
+{
+       opacity: 0.7;
+}
+
+.cel-div3 a:hover  
+{
+     color: green;
+}
+
+/*--------div4--------*/
+
+.cel-div4
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+
+.cel-div4 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.cel-div4 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.cel-div4 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.cel-div4 img:hover 
+{
+       opacity: 0.7;
+}
+
+.cel-div4 a:hover  
+{
+     color: green;
+}
+ 
+/*------------------------------------Business-------------------------*/
+
+/*-----------------------all--------------------------------*/
+
+.Third:hover .thirddiv 
+{
+    height: 300px;
+    width: 900px;
+    position: absolute;
+    background-color: white;
+    left: 190px;
+    box-shadow:0px 0px 1px black;
+    /* top: 216px; */
+    display: flex;
+}
+
+
+.thi-ul 
+{
+    height: 300px;
+    width: 18%;
+    /* border: 1px solid; */
+    display: none;
+}
+
+.Third:hover .thi-ul
+{
+    display:block;
+}
+
+.thi-ul ul 
+{
+    display: block;
+    /* background-color:lightblue; */
+    margin-left: 0px;
+}
+
+.thi-ul li 
+{
+    padding: 10px;
+    margin-left: -55px;
+}
+
+
+/*-----------div1---------*/
+
+.thi-div 
+{
+    display: none;
+    height: 300px;
+    /* width: 75%; */
+    position: absolute;
+    margin-left: 77px;
+    margin-top: -21px;  
+} 
+
+
+.thi1:hover .thi-div
+{
+    display:inline-flex; 
+}
+
+.thi-div1
+{
+    width: 25%;
+    /* border: 1px solid; */
+
+}
+
+.thi-div1 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.thi-div1 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.thi-div1 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.thi-div1 img:hover 
+{
+       opacity: 0.7;
+}
+
+.thi-div1 a:hover  
+{
+     color: green;
+}
+
+/*------------div2-------*/
+.thi-div2
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.thi-div2 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.thi-div2 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.thi-div2 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.thi-div2 img:hover 
+{
+       opacity: 0.7;
+}
+
+.thi-div2 a:hover  
+{
+     color: green;
+}
+
+/*-------------div3---------*/
+
+.thi-div3
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+
+.thi-div3 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.thi-div3 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.thi-div3 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.thi-div3 img:hover 
+{
+       opacity: 0.7;
+}
+
+.thi-div3 a:hover  
+{
+     color: green;
+}
+
+/*--------div4--------*/
+
+.thi-div4
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+
+.thi-div4 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.thi-div4 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.thi-div4 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.thi-div4 img:hover 
+{
+       opacity: 0.7;
+}
+
+.thi-div4 a:hover  
+{
+     color: green;
+}
+
+/*---------------------------------Economy--------------------------*/
+
+/*-----------div1---------*/
+
+.eco-div 
+{
+    display: none;
+    height: 300px;
+    /* width: 75%; */
+    position: absolute;
+    margin-left: 36px;
+    margin-top: -69px;  
+} 
+
+
+.thi2:hover .eco-div
+{
+    display:inline-flex; 
+}
+
+.eco-div1
+{
+    width: 25%;
+    /* border: 1px solid; */
+
+}
+
+.eco-div1 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.eco-div1 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.eco-div1 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.eco-div1 img:hover 
+{
+       opacity: 0.7;
+}
+
+.eco-div1 a:hover  
+{
+     color: green;
+}
+
+/*------------div2-------*/
+.eco-div2
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.eco-div2 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.eco-div2 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.eco-div2 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.eco-div2 img:hover 
+{
+       opacity: 0.7;
+}
+
+.eco-div2 a:hover  
+{
+     color: green;
+}
+
+/*-------------div3---------*/
+
+.eco-div3
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+
+.eco-div3 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.eco-div3 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.eco-div3 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.eco-div3 img:hover 
+{
+       opacity: 0.7;
+}
+
+.eco-div3 a:hover  
+{
+     color: green;
+}
+
+/*--------div4--------*/
+
+.eco-div4
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+
+.eco-div4 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.eco-div4 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.eco-div4 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.eco-div4 img:hover 
+{
+       opacity: 0.7;
+}
+
+.eco-div4 a:hover  
+{
+     color: green;
+}
+
+/*------------------------------Travel-------------------------*/
+
+.Forth:hover .forthdiv 
+{
+    height: 300px;
+    width: 900px;
+    position: absolute;
+    background-color: white;
+    left: 190px;
+    box-shadow:0px 0px 1px black;
+    /* top: 216px; */
+    display: flex;
+}
+
+
+.for-ul 
+{
+    height: 300px;
+    width: 18%;
+    /* border: 1px solid; */
+    display: none;
+}
+
+.Forth:hover .for-ul
+{
+    display:block;
+}
+
+.for-ul ul 
+{
+    display: block;
+    /* background-color:lightblue; */
+    margin-left: 0px;
+}
+
+.for-ul li 
+{
+    padding: 10px;
+    margin-left: -55px;
+}
+
+
+/*-----------div1---------*/
+
+.for-div 
+{
+    display: none;
+    height: 300px;
+    /* width: 75%; */
+    position: absolute;
+    margin-left: 77px;
+    margin-top: -21px;  
+} 
+
+
+.for1:hover .for-div
+{
+    display:inline-flex; 
+}
+
+.for-div1
+{
+    width: 25%;
+    /* border: 1px solid; */
+
+}
+
+.for-div1 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.for-div1 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.for-div1 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.for-div1 img:hover 
+{
+       opacity: 0.7;
+}
+
+.for-div1 a:hover  
+{
+     color: green;
+}
+
+/*------------div2-------*/
+.for-div2
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.for-div2 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.for-div2 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.for-div2 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.for-div2 img:hover 
+{
+       opacity: 0.7;
+}
+
+.for-div2 a:hover  
+{
+     color: green;
+}
+
+/*-------------div3---------*/
+
+.for-div3
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+
+.for-div3 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.for-div3 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.for-div3 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.for-div3 img:hover 
+{
+       opacity: 0.7;
+}
+
+.for-div3 a:hover  
+{
+     color: green;
+}
+
+/*--------div4--------*/
+
+.for-div4
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+
+.for-div4 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.for-div4 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.for-div4 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.for-div4 img:hover 
+{
+       opacity: 0.7;
+}
+
+.for-div4 a:hover  
+{
+     color: green;
+}
+
+/*------------------------------------------hotel--------------------*/
+
+/*-----------div1---------*/
+
+.hot-div 
+{
+    display: none;
+    height: 300px;
+    /* width: 75%; */
+    position: absolute;
+    margin-left: 62px;
+    margin-top: -69px;  
+} 
+
+
+.for2:hover .hot-div
+{
+    display:inline-flex; 
+}
+
+.hot-div1
+{
+    width: 25%;
+    /* border: 1px solid; */
+
+}
+
+.hot-div1 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.hot-div1 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.hot-div1 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.hot-div1 img:hover 
+{
+       opacity: 0.7;
+}
+
+.hot-div1 a:hover  
+{
+     color: green;
+}
+
+/*------------div2-------*/
+.hot-div2
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.hot-div2 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.hot-div2 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.hot-div2 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.hot-div2 img:hover 
+{
+       opacity: 0.7;
+}
+
+.hot-div2 a:hover  
+{
+     color: green;
+}
+
+/*-------------div3---------*/
+
+.hot-div3
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+
+.hot-div3 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.hot-div3 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.hot-div3 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.hot-div3 img:hover 
+{
+       opacity: 0.7;
+}
+
+.hot-div3 a:hover  
+{
+     color: green;
+}
+
+/*--------div4--------*/
+
+.hot-div4
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+
+.hot-div4 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.hot-div4 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.hot-div4 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.hot-div4 img:hover 
+{
+       opacity: 0.7;
+}
+
+.hot-div4 a:hover  
+{
+     color: green;
+}
+
+/*--------------------------------life style-------------------------*/
+
+
+.Five:hover .fivediv 
+{
+    height: 300px;
+    width: 900px;
+    position: absolute;
+    background-color: white;
+    left: 190px;
+    box-shadow:0px 0px 1px black;
+    /* top: 216px; */
+    display: flex;
+}
+
+
+.fiv-ul 
+{
+    height: 300px;
+    width: 18%;
+    /* border: 1px solid; */
+    display: none;
+}
+
+.Five:hover .fiv-ul
+{
+    display:block;
+}
+
+.fiv-ul ul 
+{
+    display: block;
+    /* background-color:lightblue; */
+    margin-left: 0px;
+}
+
+.fiv-ul li 
+{
+    padding: 10px;
+    margin-left: -55px;
+}
+
+
+/*-----------div1---------*/
+
+.fiv-div 
+{
+    display: none;
+    height: 300px;
+    /* width: 75%; */
+    position: absolute;
+    margin-left: 77px;
+    margin-top: -21px;  
+} 
+
+
+.fiv1:hover .fiv-div
+{
+    display:inline-flex; 
+}
+
+.fiv-div1
+{
+    width: 25%;
+    /* border: 1px solid; */
+
+}
+
+.fiv-div1 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.fiv-div1 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.fiv-div1 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.fiv-div1 img:hover 
+{
+       opacity: 0.7;
+}
+
+.fiv-div1 a:hover  
+{
+     color: green;
+}
+
+/*------------div2-------*/
+.fiv-div2
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.fiv-div2 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.fiv-div2 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.fiv-div2 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.fiv-div2 img:hover 
+{
+       opacity: 0.7;
+}
+
+.fiv-div2 a:hover  
+{
+     color: green;
+}
+
+/*-------------div3---------*/
+
+.fiv-div3
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+
+.fiv-div3 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.fiv-div3 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.fiv-div3 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.fiv-div3 img:hover 
+{
+       opacity: 0.7;
+}
+
+.fiv-div3 a:hover  
+{
+     color: green;
+}
+
+/*--------div4--------*/
+
+.fiv-div4
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+
+.fiv-div4 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.fiv-div4 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.fiv-div4 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.fiv-div4 img:hover 
+{
+       opacity: 0.7;
+}
+
+.fiv-div4 a:hover  
+{
+     color: green;
+}
+
+/*----------------------------------video---------------------------*/
+
+.Six:hover .sixdiv 
+{
+    height: 300px;
+    width: 900px;
+    position: absolute;
+    background-color: white;
+    left: 190px;
+    box-shadow:0px 0px 1px black;
+    /* top: 216px; */
+    display: flex;
+}
+
+
+.six-ul 
+{
+    height: 300px;
+    width: 18%;
+    /* border: 1px solid; */
+    display: none;
+}
+
+.Six:hover .six-ul 
+{
+    display:block;
+}
+
+.six-ul ul 
+{
+    display: block;
+    /* background-color:lightblue; */
+    margin-left: 0px;
+}
+
+.six-ul li 
+{
+    padding: 10px;
+    margin-left: -55px;
+}
+
+
+/*-----------div1---------*/
+
+.six-div 
+{
+    display: none;
+    height: 300px;
+    /* width: 75%; */
+    position: absolute;
+    margin-left: 77px;
+    margin-top: -21px;  
+} 
+
+
+.six1:hover .six-div
+{
+    display:inline-flex; 
+}
+
+.six-div1
+{
+    width: 25%;
+    /* border: 1px solid; */
+
+}
+
+.six-div1 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.six-div1 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.six-div1 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.six-div1 img:hover 
+{
+       opacity: 0.7;
+}
+
+.six-div1 a:hover  
+{
+     color: green;
+}
+
+/*------------div2-------*/
+.six-div2
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+.six-div2 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.six-div2 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.six-div2 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.six-div2 img:hover 
+{
+       opacity: 0.7;
+}
+
+.six-div2 a:hover  
+{
+     color: green;
+}
+
+/*-------------div3---------*/
+
+.six-div3
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+
+.six-div3 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.six-div3 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.six-div3 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.six-div3 img:hover 
+{
+       opacity: 0.7;
+}
+
+.six-div3 a:hover  
+{
+     color: green;
+}
+
+/*--------div4--------*/
+
+.six-div4
+{
+    width: 25%;
+    /* border: 1px solid; */
+}
+
+
+.six-div4 img 
+{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.six-div4 p 
+{
+    margin-left: -20px;
+    /* background-color:aqua */
+}
+.six-div4 span
+{
+    margin-left: -20px;
+    opacity:0.5;
+}
+
+.six-div4 img:hover 
+{
+       opacity: 0.7;
+}
+
+.six-div4 a:hover  
+{
+     color: green;
+}
+
+/*----------------------------seven--------------------------------------*/
+
+.sev 
+{
+    /* height: 500px; */
+    background-color: white;
+    position: absolute;
+
+}
+
+.sev ul 
+{
+    display: block;
+    /* margin-left: -100px; */
+}
+
+.sev li 
+{
+    padding: 5px;  
+    
+}
+
+.sev li:hover 
+{
+    background-color:green;
+}
+
+
+
+
+
+
+

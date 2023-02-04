@@ -1,0 +1,38 @@
+*{box-sizing: border-box; margin: 0} 
+
+.a 
+{
+	height: 800px;
+	border: 2px solid;
+}
+
+.navbar
+{
+	height: 100px;
+	border: 1px solid red ;
+	/*display: grid;
+    grid-template-columns: 2fr 2fr;*/
+
+}
+
+.navbar a,li  
+{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.navbar   
+{
+	display: flex;
+/*    display: inline;*/
+    justify-content: space-between;
+
+}
+
+
+ 
+
+
+
+
+

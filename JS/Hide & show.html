@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Amet, iure similique eveniet impedit cumque quaerat non provident 
+        consectetur odio repellat at magni obcaecati ipsam id, nesciunt, 
+        incidunt nam suscipit dolores.
+    </p>
+
+    <button onclick="hide()">Hide</button>
+    <button onclick="Show()">Show</button>
+    <button onclick="both()">Hide/Show</button>
+
+
+    <script>
+             
+              function hide()
+              {
+                       p.style.display="none";
+              }
+
+              function Show ()
+              {
+                       p.style.display="block";
+              }
+
+              function both()
+              {
+                       if (p.style.display=="none")
+                       {
+                           p.style.display="block";
+                       }
+
+                       else
+                       {
+                        p.style.display="none";
+                       }
+              }
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+ 
+           .a 
+           {
+            width: 200px;
+            height: 200px;
+            background-color: antiquewhite;
+            font-size: 30px;
+            font-weight:bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular',
+             'Lucida Grande', 
+            'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+
+            animation: identifier 0.5s linear infinite;
+           }
+
+           @keyframes identifier 
+           {
+             from{transform: scale(1) rotate(0deg);}
+             to{transform: scale(0.9) rotate(360deg);}
+           }
+
+    </style>
+</head>
+<body>
+    
+    <h1 id="heading">Nothig</h1>
+
+    <script>
+
+        // document.getElementById('heading')
+        // heading.style.color="red";
+        // heading.style.height="200px" ;
+        // heading.style.width="200px"
+        // heading.style.background="lightblue";
+        // heading.style.marginTop="0px"
+
+        heading.classList.add('a');
+
+    </script>
+</body>
+</html>
