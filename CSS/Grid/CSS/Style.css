@@ -1,17 +1,24 @@
-*{box-sizing: border-box; margin: 0} 
+*{box-sizing: border-box; margin: 0}  
 
 .a 
 {
-	height: 800px;
-	border: 2px solid;
+	height: 900px;
+	/* border: 2px solid; */
+	background-image: url(../Image/Bg1.jpg);
+	background-size: 100% 100%;
+}
+
+.img1 
+{
+	display: none;
 }
 
 .navbar
 {
 	height: 100px;
-	border: 1px solid red ;
-	/*display: grid;
-    grid-template-columns: 2fr 2fr;*/
+	/* border: 1px solid red ; */
+	display: grid;
+    grid-template-columns: 1fr 1fr 7fr;
 
 }
 
@@ -19,20 +26,412 @@
 {
 	text-decoration: none;
 	list-style-type: none;
+	color: white;
 }
 
-.navbar   
+.navbar ul 
 {
+	/* border: 1px solid; */
 	display: flex;
-/*    display: inline;*/
-    justify-content: space-between;
+	;
+}
 
+.navbar li 
+{
+	padding: 20px;
+	margin-top: 20px;
+	
+}
+
+.navbar span 
+{ 
+         margin-top: 40px;
+		 margin-left: -60px;
+}
+
+.navbar hr 
+{
+	 margin-right: 10px;
+	opacity:0.5;
+}
+
+/*----------------------------Home-------------------------------------------------*/
+
+.Home div  
+{
+    display: none;
+	width: 17%; 
+	background-color: white;
 }
 
 
- 
+
+.Home:hover div   
+{
+	display: block;
+	position: absolute;
+	height: auto;
+}
+
+.Home ul 
+{
+	display: block;
+}
+
+.Home li  
+{
+	padding: 5px; 
+}
+
+.Home li  a
+{
+	color: black;
+}
+
+/*--------------------------------Listing----------------------------------*/
+
+.Listing div 
+{
+	position: absolute;
+	background-color: white;
+	width: 12%;	
+}
+
+.Listing div a 
+{
+	color: black;
+}
+
+.Listing li 
+{
+	margin-left: -40px;
+	padding: 10px;
+}
+
+.Listing div ul 
+{
+	display: none;
+}
+
+.Listing:hover div ul 
+{
+	display: block;
+}
 
 
 
+/*------Grid----------------*/
 
+.grid div 
+{
+	position: absolute;
+	margin-left: 143px;
+	width: 90%;
+	margin-top: -20px;
+}
+
+.grid-ul    
+{
+	display: none;
+}
+
+.grid:hover .grid-ul 
+{
+	display: block;
+}
+
+/*--------List-----------*/
+
+.List div  
+{
+	position: absolute;
+	margin-left: 143px;
+	width: 90%;
+	margin-top: -30px;
+}
+
+.List-ul    
+{
+	display: none;
+}
+
+.List:hover .List-ul 
+{
+	display: block;
+}
+
+/*--------style----------*/
+
+.Style div  
+{
+	position: absolute;
+	margin-left: 143px;
+	width: 90%;
+	margin-top: -30px;
+}
+
+.Style-ul    
+{
+	display: none;
+}
+
+.Style:hover .Style-ul 
+{
+	display: block;
+}
+
+/*-----------Half--------*/
+
+.Half div  
+{
+	position: absolute;
+	margin-left: 143px;
+	width: 90%;
+	margin-top: -30px;
+}
+
+.Half-ul    
+{
+	display: none;
+}
+
+.Half:hover .Half-ul 
+{
+	display: block;
+}
+
+/*--------Agent--------*/
+
+.Agent div  
+{
+	position: absolute;
+	margin-left: 143px;
+	width: 90%;
+	margin-top: -30px;
+}
+
+.Agent-ul    
+{
+	display: none;
+}
+
+.Agent:hover .Agent-ul 
+{
+	display: block;
+}
+
+/*-----------Agencies---------*/
+
+.Agencies div  
+{
+	position: absolute;
+	margin-left: 143px;
+	width: 90%;
+	margin-top: -30px;
+}
+
+.Agencies-ul    
+{
+	display: none;
+}
+
+.Agencies:hover .Agencies-ul 
+{
+	display: block;
+}
+
+/*-----------------------------property------------------------------------*/
+
+.Property div 
+{
+	position: absolute;
+	background-color: white;
+	margin-left: -80px;
+}
+
+.Property div li 
+{
+	padding: 10px;
+	margin-left: -40px;
+
+}
+
+.Property div a 
+{
+  color: black;
+}
+
+.Property div ul 
+{
+	display: none;
+}
+
+.Property:hover div ul 
+{
+	display: block;
+}
+
+/*-----------User Admin----------*/
+
+.Admin div  
+{
+	position: absolute;
+	margin-left: 112px;
+	width: 160%;
+	margin-top: -30px;
+}
+
+.Admin-ul    
+{
+	display: none;
+}
+
+.Admin:hover .Admin-ul 
+{
+	display: block;
+}
+
+/*-------Listing Single--------*/
+
+.Single div  
+{
+	position: absolute;
+	margin-left: 112px;
+	width: 160%;
+	margin-top: -30px;
+}
+
+.Single-ul    
+{
+	display: none;
+}
+
+.Single:hover .Single-ul 
+{
+	display: block;
+}
+
+/*-----------------------------------Pages----------------------------*/
+
+.Pages div 
+{
+	position: absolute;
+	background-color: white;
+	margin-left: -110px;
+}
+
+.Pages div li 
+{
+	padding: 10px;
+	/* margin-left: -40px; */
+
+}
+
+.Pages div a 
+{
+  color: black;
+}
+
+.Pages div ul 
+{
+	display: none;
+}
+
+.Pages:hover div ul 
+{
+	display: block;
+}
+
+/*------------------------------Blog--------------------------------------*/
+
+.Blog div 
+{
+	position: absolute;
+	background-color: white;
+	margin-left: -60px;
+}
+
+.Blog div li 
+{
+	padding: 10px;
+	/* margin-left: -40px; */
+}
+
+.Blog div a 
+{
+  color: black;
+}
+
+.Blog div ul 
+{
+	display: none;
+}
+
+.Blog:hover div ul 
+{
+	display: block;
+}
+
+
+
+/*--------------------------------------Create Listing-------------------------*/
+
+.Create span
+{
+	position: absolute;
+	top: -10px;
+	right: 40px;
+	background-color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 35px;
+	padding-left: 35px;
+	/* border: 1px solid; */
+	border-radius: 30px;
+}
+
+.Create a
+{
+	color: red;
+}
+
+.Create span:hover
+{
+	border:0.5px solid  red  ;
+}
+
+/*---------------------bars----------------------------------*/
+
+.button, .user 
+{
+	display: none;
+}
+
+/*---------------------------------Find Your Dream Home------------------------*/
+
+.h1 
+{
+	/* border: 1px solid; */
+	color: white;
+	text-align: center;
+	margin-top: 300px;
+	font-size: 25px;
+}
+
+.h1 span
+{
+	font-size: 18px;
+}
+
+.buy-rent 
+{
+	border: 1px solid ;
+	height: 100px;
+	background-color: white;
+	width: 80%;
+	margin-left: 130px;
+	margin-top: 20px;
+	border-radius: 10px;
+	box-shadow:5px 10px ;
+}
 

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">
+    </script>
+</head>
+<body>
+    
+
+    <div>
+        <h2 class="x">Heading 2</h2>
+        <h2>Heading 2</h2>
+        <h2 class="x">Heading 2</h2>
+        <h2 class="x">Heading 2</h2>
+        <h2>Heading 2</h2>
+    </div>
+        
+          <script>
+ 
+                   $("h2").first().css("color","blue")
+                   $("h2").last().css("color","blue")
+                   $("h2").eq(1).css("color","yellow") 
+
+                   $('h2').filter('.x').css("background","coral")
+                   $('h2').not('.x').css("background","lightblue") 
+          </script>
+</body>
+</html>

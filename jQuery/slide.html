@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">
+    </script>
+
+    <style>
+        
+        .que
+        {
+            border: 2px solid red;
+            background-color: yellow;
+        }
+
+        .ans
+        {
+           background-color: lightblue;
+           border: 1px solid;
+           display: none;
+        }
+
+    </style>
+</head>
+<body>
+    
+      <p> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Nobis, iste eius. Ipsam, doloremque rem eos tempora iusto 
+         accusantium numquam molestiae consequatur voluptatum! 
+         Architecto voluptatem illum maxime hic natus recusandae totam.
+      </p>
+
+      <button id="bt">Hide</button>
+
+      <div class="que">
+           question?
+      </div>
+
+      <div class="ans">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Est sit tempora quam exercitationem? Fuga recusandae 
+         nobis aliquam dicta doloribus voluptatum ullam aliquid nulla,
+          quia ratione totam placeat vero ipsum et.
+      </div>
+
+      <div class="que">
+        question?
+   </div>
+
+   <div class="ans">
+     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Est sit tempora quam exercitationem? Fuga recusandae 
+      nobis aliquam dicta doloribus voluptatum ullam aliquid nulla,
+       quia ratione totam placeat vero ipsum et.
+   </div>
+
+   <div class="que">
+    question?
+   </div>
+
+<div class="ans">
+ Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  Est sit tempora quam exercitationem? Fuga recusandae 
+  nobis aliquam dicta doloribus voluptatum ullam aliquid nulla,
+   quia ratione totam placeat vero ipsum et.
+</div>
+
+<div class="que">
+    question?
+</div>
+
+<div class="ans">
+ Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  Est sit tempora quam exercitationem? Fuga recusandae 
+  nobis aliquam dicta doloribus voluptatum ullam aliquid nulla,
+   quia ratione totam placeat vero ipsum et.
+</div>
+     
+         <script>
+
+            $(document).ready(function()
+            {
+
+            
+ 
+                //    $('.que').click(function()
+                //    {
+                //         $('.ans').slideToggle(2000);
+                //    })
+
+                   $('.que').click(function()
+                   {
+                        $('.ans').slideDown();
+                   })
+
+                   $('.que').click(function()
+                   {
+                         $('.ans').slideUp();
+                   })
+
+                })
+
+         </script>
+</body>
+</html>

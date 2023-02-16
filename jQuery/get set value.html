@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">
+    </script>
+</head>
+<body>
+    
+     
+      <h1>Hello</h1>
+      <p>Paragraph</p>
+      <div>Div</div>
+
+        <input type="text" id="test">
+
+        <a href="">Home</a>
+
+        <img src="Image1.jpeg" alt="" height="100px" width="200px">
+
+        <script>
+
+                   $('h1').text("rishi");
+                   $('h1').html("<u>hello</u>")
+                   $('h1').text("<u>hello</u>")
+
+                   $('a').html("<i>nothig")
+
+                   $('input').val("Hii")
+
+                   $('img').attr('src',"Image3.jpeg")
+
+                   h_tag=$('h1');
+                   p_tag=$('p');
+                   div_tag=$('div');
+                   input_tag=$('input');
+                   img_tag=$('img');
+
+                //    alert(h_tag.text());
+                //    alert(p_tag.text());
+                //    alert(div_tag.text());
+
+                // input_tag.val('hello');
+
+                   p_tag.html("Hii");
+
+                //    console.log(input_tag);
+                
+                   input_tag.attr('value',"Hello");
+
+                   document.write(input_tag.attr('id'))  
+
+                   div_tag.click(function()
+                   {
+                    alert(input_tag.val())
+                    alert(input_tag.attr('value'))
+                    alert(img_tag.attr('src'))
+                   })
+
+        </script>
+     
+
+</body>
+</html>

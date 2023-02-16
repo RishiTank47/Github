@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">
+    </script>
+</head>
+<body>
+    
+     <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Officia suscipit necessitatibus dolores rerum ex tempore perferendis 
+        enim perspiciatis, ratione reprehenderit, aperiam sed voluptate 
+        recusandae minus consequatur delectus temporibus maiores ab.
+     </p>
+
+     <button id="bt1">Hide</button>
+     <button id="bt2">Show</button>
+     <button id="bt3">Hide/Show</button>
+
+
+     <script>
+                 
+                 $('#bt1').click(function()
+                 {
+                         $('p').fadeOut(3000);
+                 })
+
+                 $('#bt2').click(function()
+                 {
+                      $('p').fadeIn(3000);
+                 })
+
+                 $('#bt3').click(function()
+                 {
+                      $('p').fadeToggle(2000);
+                 })
+
+                 $('p').click(function()
+                 {
+                    $(this).fadeTo("1000",0.3);
+                 })
+
+     </script>
+
+</body>
+</html>
