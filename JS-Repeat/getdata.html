@@ -8,41 +8,33 @@
 </head>
 <body>
     
-     <script>
-        // document.getElementById 
-        // document.getElementsByClassName
-        // document.getElementsByTagName 
-        // document.querySelector 
-        // document.querySelectorAll
-    
-
-        function demo()
-
-   { var a =document. getelementById("t1").value;
-    var b = document. getElementById('t2'). value;
-    console.log(a); 
-    console.log(b);
-    sum = parseFloat(a)+parseFloat(b)
-    console. log (sum);
-    }
-
-
-    //let : re-assign allowed but re-declaration not allowed 
-    let b = "Reactis" 
-    console.log(b);
-     b = 12; //re-assign
-    console. log(b);
-
-    // cont: re-assign  but re-declaration both not allowed 
-    const c="Javascript"
-    console.log(c);
-    // c= "hello"; //re-assign
-    // console.log(c);
-//     const c=56;//re-declaration 
-    console.log(c)
-
-   
-     </script>
+        <input type="text" name="" id="one">
+        <input type="text" id= "two">
+        <button onclick="Test" >click</button> <h1 id="demo"></h1>
+        </htm1> 
 
 </body>
 </html>
+
+<script>
+    // document.getElementById 
+    // document.getElementsByClassName
+    // document.getElementsByTagName 
+    // document.querySelector 
+    // document.querySelectorAll
+
+    function Test ()
+
+{
+        let first = document. getElementById ('one').value;
+        console.log (first);
+
+        let second = document. getElementById( 'two' ).value;
+
+        let sum =parseInt (first)+parseInt (second) ;
+        console. log(sum);
+
+        document. getElementById("demo"). innerHTL=sum;
+}
+
+ </script>

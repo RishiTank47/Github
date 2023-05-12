@@ -61,4 +61,188 @@
     {
         color: black;
     }
+
+    .find_home  span h1    
+    {
+	 font-size: 30px;
+	 margin-top: 70px;
+    } 
+
+    .find_home h6 
+    {
+	 font-size: 19px;
+	 margin-top: 10px;
+    }
+
+    .buy 
+    {
+        margin-left: 200px;
+    }
+
+    .buying_ser
+    {
+        height: 440px;
+        margin-left: 30px;
+    }
+
+    .buying_ser1
+    {
+        height: 410px;
+        margin: 10px 0px 0px 1px;
+    }
+
+    .buying_ser1 input 
+    {
+        width: 90%;
+    }
+
+    .adv 
+    {
+        display: block;
+        margin-top: 30px;
+        border: 1px solid;
+        padding: 10px;
+        width: 90%;
+        margin: 30px 0px 0px 20px ;
+        border-radius: 5px;
+    }
+
+    .sea 
+    {
+        display: block;
+        width: 90%;
+        margin: 15px 0px 0px 20px ;
+    }
+
+    .pro_2,.pro_3 
+    {
+        display: none;
+    }
+    .pro_1
+    {
+        width: 100%;
+    }
+    .pho_li_3 
+    {
+        margin-left: 200px;
+    }
+    .pho_pri_1 
+    {
+        top: 1330px;
+    }
+    .c 
+    {
+        height: auto;
+    }
+
+    .cities_1
+    {
+	   display: block;
+    } 
+
+    .cities_2 
+    {
+        display:block;
+        margin-top: 250px;
+    }
+
+    .miami,.florida
+    {
+        width: 90%;
+        margin-left: 30px;  
+    }
+    .la,.ny
+    {
+        width: 90%;
+        margin-left:30px ;
+        height: 70%;
+    }
+
+    .d 
+    {
+        margin-top: 300px;
+        height: auto;
+    }
+    .why_card 
+    {
+        display: block;
+    }
+    .why_card_1_man
+    {
+       margin-left: 160px;
+    }
+    .why_card_2
+    {
+        margin: 30px 0 0 50px ;
+    }
+    .why_card_3
+    {
+        margin: 30px 0 0 50px ;
+    }
+
+    .article_tips 
+    {
+        margin-top: 800px;
+    }
+
+    .partners
+    {
+        display: block;
+    }
+    .partners_1 
+    {
+        margin-left: 100px;
+    }
+    .partners_2
+    {
+        margin-left: 130px;
+    }
+    .partners_3,.partners_4
+    {
+        margin-left: 150px;
+    }
+    .partners_5
+    {
+        margin-left: 210px;
+    }
+
+
+    .f 
+    {
+        display:block;
+        height: 200px;
+    }
+    .become_real h2 
+    {
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .become_real p 
+    {
+       margin-left: 10px;
+    }
+    .register 
+    {
+        margin:0 0 0 -60px;
+    }
+
+    .g 
+    {
+        display: block;
+        height: auto;
+    }
+    .links ul 
+    {
+        margin-left: 0;
+    }
+
+    .h 
+    {
+        display: block; 
+        height: auto;
+    }
+    .footer_h_2 p 
+    {
+        margin-right:190px;
+    }
 }

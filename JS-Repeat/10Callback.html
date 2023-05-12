@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    // callback: any function that is passed as an argument to another finction so that it can be 
+    // executed  in the other function called as a callback function.
+    
+    function First(mydata)
+    {
+        console.log(mydata);
+    }
+    function second(fname,lname)
+    {
+        return fname+lname;
+    }
+    const result= second("Tops","Technologies")
+    First(result);
+
+    function Test(print)
+    {
+        console.log(print);
+    }
+    function foo(num1,num2)
+    {
+        return num1*num2;
+    }
+    const x=foo(2,4)
+    Test(x);
+</script>
