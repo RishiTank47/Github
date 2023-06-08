@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Fatch_API_in_Table from'./Task/Fatch_API_in_Table';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App />  */}
+    <Fatch_API_in_Table />
+
   </React.StrictMode>
 );
 

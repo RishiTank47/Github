@@ -24,7 +24,7 @@
     .then((Response)=>{
         console.log(Response);
         HTMLDATA=''
-        Response.forEach(ele => {
+        Response.forEach(ele => { 
             console.log(ele.id);
             HTMLDATA+=`<tr>
                 <td>${ele.UserID}</td>
@@ -32,7 +32,7 @@
                 <td>${ele.title}</td>
                 <td>${ele.body}</td>
                     </tr>`
-                    document.querySelector('#dispData').innerHTML=HTMLDATA;
+                    document.querySelector('#dispData').innerHTML=HTMLDATA;  
         });
     }).catch((Errorhndl)=>{
         console.log(Errorhndl);
