@@ -3,12 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Fatch_API_in_Table from'./Task/Fatch_API_in_Table';
+import 'bootstrap5/src/css/bootstrap.min.css'
+// import DataInTable from './Task/DataInTable'
+import Navbar from './Task/Navbar'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App />  */}
-    <Fatch_API_in_Table />
+    
+    {/* <DataInTable/> */}
+    <Navbar/> 
 
   </React.StrictMode>
 );
