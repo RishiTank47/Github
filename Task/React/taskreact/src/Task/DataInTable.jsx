@@ -13,19 +13,19 @@ function DataInTable(props) {
             .then((Response)=>{  
             
                 var HTMLDATA=''
-                Response.map(ele => { 
-                    console.log(ele.id);
-                    HTMLDATA+=`<tr>
-                        <td>${ele.userId}</td>
-                        <td>${ele.id}</td>
-                        <td>${ele.title}</td>
-                        <td>${ele.completed}</td>
-                            </tr>`
-                            document.querySelector('#dispData').innerHTML=HTMLDATA;  
+                // Response.map(ele => { 
+                //     console.log(ele.id);
+                //     HTMLDATA+=`<tr>
+                //         <td>${ele.userId}</td>
+                //         <td>${ele.id}</td>
+                //         <td>${ele.title}</td>
+                //         <td>${ele.completed}</td>
+                //             </tr>`
+                //             document.querySelector('#dispData').innerHTML=HTMLDATA;  
 
                             setState('Success') 
                             setdata(Response);
-                });
+                // });
             
             })
             
@@ -41,7 +41,7 @@ function DataInTable(props) {
                 <div className="row">
                   <div className="col">
                     <h1>{status}</h1>
-                    <table className='table table-bordered'> 
+                    {/* <table className='table table-bordered'> 
                         <thead>
                             <tr>
                                 <th>userId</th>
@@ -53,7 +53,34 @@ function DataInTable(props) {
                     <tbody id="dispData">
                     
                     </tbody>
+                    </table> */}
+
+                    <table className='table table-bordered'> 
+                        <thead>
+                            <tr>
+                                <th>userId</th>
+                                <th>id</th>
+                                <th>title</th>
+                                <th>completed</th>
+                            </tr>
+                        </thead> 
+                    <tbody >
+                    
+                           {Object.entries(data).map((rs)=>{
+                            console.log(rs);
+                            return<>
+                            <tr>
+                                <td>{rs[1].userId}</td>
+                                <td>{rs[1].id}</td>
+                                <td>{rs[1].title}</td>
+                                <td>{rs[1].completed+""}</td>
+                            </tr>
+                            </>
+                           })}
+                    </tbody>
                     </table>
+
+                    
                     
                   </div>
                 </div>
