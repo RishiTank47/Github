@@ -4,25 +4,32 @@ function StopWatch(props) {
 
     const[counter,setCounter]=useState(0)
 
-   function Watch() {
+    // var counter=0;
 
-    for ( counter = 0; counter < 5; counter++) 
-    {
-        //  console.log(i+"tops Tech");    
+    useEffect (()=>{
+        
+    })
+   const start=()=>{
 
-        setTimeout(() => {
-            
+
+        let timer;
+       
+        for (let counter = counter; counter =Infinity; counter++) 
+       {
+        setInterval(() => {
+
+            setCounter((prevcounter)=>prevcounter+1);
+             
         }, 1000);
-            
-    }
     
-   }
-
+       }
+     
+    } 
 
     return (
         <div>
                 <h1>{counter}</h1>
-                <button className='btn btn-primary' onClick={Watch}>Start</button>
+                <button className='btn btn-primary' onClick={start}>Start</button>
             
         </div>
     );
