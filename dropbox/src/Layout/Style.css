@@ -1,0 +1,88 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+img 
+{
+    max-width: 100%;
+}
+.navbar
+{
+    /* height: 50px; */
+}
+.navbar-brand
+{
+    width: 4%;
+    
+}
+.drop_icon
+{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+}
+.drop_icon:hover
+{
+    color: white;
+}
+.navbar_ul a 
+{
+    color: black!important;
+}
+.class 
+{
+    height: 800px;
+    /* background-color: #1E1919; */
+   
+    background-color: aqua;
+}
+.why_dropebox_0 
+{
+    position: relative;
+}
+.navbar_ul li:hover
+{
+    background-color: #F8F5F2;
+}
+.why_dropebox 
+{
+    position: absolute;
+    width: 350%;
+    left: 0px;
+    top: 53px;
+
+}
+.why_dropebox ul 
+{
+    display: block;
+    font-size: 13px;
+}
+.why_dropebox
+{
+    background-color: #F8F5F2;
+    display: none;
+}
+.why_dropebox a:hover
+{
+    background-color: #dcd9d4;
+}
+.why_dropebox_0:hover .why_dropebox 
+{
+   display: flex;
+}
+.product 
+{
+    position: relative;
+}
+.product_1 
+{
+    position: absolute; 
+    width: 250%;
+    left: -12px;
+    top: 53px;
+} 
+.product_1  p 
+{
+    font-size: 12px;
+    /* background-color: #F8F5F2; */
+}
+
+
