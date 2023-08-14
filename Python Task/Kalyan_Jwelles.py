@@ -73,8 +73,10 @@ else:
 
 print("Discout is:",discout)
 print("--------------------------------")
-total_net_amout=total_amount-discout
-print("Total Net Amount:",total_net_amout) 
+total_net_amout=total_amount-discout 
+gst=(total_net_amout*12)/100
+amout_to_pay=total_net_amout+gst 
+print("Total Net Amount With GST:",amout_to_pay) 
 
 
 
