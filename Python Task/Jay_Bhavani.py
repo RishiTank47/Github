@@ -30,12 +30,12 @@ if press=="1":
     m_price=input("Enter Product Price:")
     price.append(m_price)
     
-    print("\n")
-    for i in item:  
-        for j in price: 
-            print(i,j) 
-    # print(item)
-    # print(price)
+    # print("\n")
+    # for i in item:  
+    #     for j in price: 
+    #         print(i,j) 
+    print(item)
+    print(price)
 
 if press=="2":
         customer_product=input("What you want:")
