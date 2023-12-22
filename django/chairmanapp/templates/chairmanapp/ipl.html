@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+a 
+{
+    text-decoration: none;
+    color: black;
+}
+</style>
+</head>
+<body>
+
+<h2>IPL</h2>
+
+<table>
+  <tr>
+    <th>Team</th>
+    <th>Coptain</th>
+    <th>Info</th>
+  </tr>
+  <tr>
+    <td>CSK</td>
+    <td>M.S. Dhoni</td>
+    <td><a href="{% url 'cskinfo' %}">view</a></td>
+  </tr>
+  <tr>
+    <td>MI</td>
+    <td>Hardik Pandya</td>
+    <td><a href="{% url 'miinfo' %}">view</a></td>
+  </tr>
+  <tr>
+    <td>KKR</td>
+    <td>Shreyas Iyer</td>
+    <td><a href="{% url 'kkrinfo' %}">view</a></td>
+  </tr>
+  <tr>
+    <td>SRH</td>
+    <td>Pat Cummins</td>
+    <td><a href="{% url 'srhinfo' %}">view</a></td>
+  </tr>
+  <tr>
+    <td>DC</td>
+    <td>Rishabh Pant</td>
+    <td><a href="{% url 'dcinfo' %}">view</a></td>
+  </tr>
+  <tr>
+    <td>Punjab Kings</td>
+    <td>Shikhar Dhavan</td>
+    <td><a href="{% url 'pkinfo' %}">view</a></td>
+  </tr>
+  <tr>
+    <td>RCB</td>
+    <td>Faf du Plessis</td>
+    <td><a href="{% url 'rcbinfo' %}">view</a></td>
+  </tr>
+  <tr>
+    <td>RR</td>
+    <td>Sanju Samson</td>
+    <td><a href="{% url 'rrinfo' %}">view</a></td>
+  </tr>
+  <tr>
+    <td>GT</td>
+    <td>Shubhman Gill</td>
+    <td><a href="{% url 'gtinfo' %}">view</a></td>
+  </tr>
+  <tr>
+    <td>LSG</td>
+    <td>KL Rahul </td>
+    <td><a href="{% url 'lsginfo' %}">view</a></td>
+  </tr>
+</table>
+
+</body>
+</html>

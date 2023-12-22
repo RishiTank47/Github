@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import Nav_Product from './Nav_Product';
 
 function Navbar(props) {
-  
-   
- 
     return (
         <>
       <nav className="navbar navbar-expand-sm navbar-light bg-white">
@@ -102,38 +99,84 @@ function Navbar(props) {
                 <li className="nav-item p-2 product ">
                   <a className="nav-link" href="javascript:void(0)">Product</a>
 
-                  <div className="container product_1 ">
+                  <div className="container product_1 "> 
                    <p className='h6 ms-1'>Do more than store with Dropbox</p> 
 
-
-                    {/* <div className="container d-flex">
-                      <div>abubi</div>
-                      <div>skndn</div> 
-                    </div> */}
-                    
-                     {/* {<div className="row ">
-                      {API.map((res)=>{
-                        return(
-                          <div className="d-flex"> 
-                          <div className="col-4">
-                              <img src={res.image} alt="" />   
-                          </div>
-                          <div className="col-8">
-                              
-                          </div>
-                          </div>    
-                        )
-                      })}
-                    </div>  }  */} 
-
                       <Nav_Product/>
-
 
                   </div>
                 </li>
 
-                <li className="nav-item p-2">
+                <li className="nav-item p-2 solution">
                   <a className="nav-link" href="javascript:void(0)">Solution</a>
+
+                  <div className="container solution_1"> 
+                     <ul className="navbar-nav me-auto mt-1 ">
+
+                      <li className="nav-item ms-2 h6 " > 
+                        Roles
+                      </li>
+
+                      <li className="nav-item " > 
+                        <a className="nav-link" href="">Creatives</a>
+                      </li>
+
+                      <li className="nav-item " > 
+                        <a className="nav-link" href="">Sales </a>
+                      </li>
+
+                      <li className="nav-item " > 
+                        <a className="nav-link" href="">Marketing</a>
+                      </li>
+
+                      <li className="nav-item " > 
+                        <a className="nav-link" href="">HR</a>
+                      </li>
+
+                      <li className="nav-item " > 
+                        <a className="nav-link" href="">IT</a>
+                      </li>
+
+                      <li className="nav-item " > 
+                        <a className="nav-link" href="">Team Lead</a>
+                      </li>
+
+                      <li className="nav-item " > 
+                        <a className="nav-link" href="">Personal</a>
+                      </li>
+
+                    </ul> 
+                     <ul className="navbar-nav me-auto mt-1 ">
+
+                      <li className="nav-item ms-2 h6 " > 
+                        Idustries
+                      </li>
+
+                      <li className="nav-item " > 
+                        <a className="nav-link" href="">Construction</a>
+                      </li>
+
+                      <li className="nav-item " > 
+                        <a className="nav-link" href="">Technology</a>
+                      </li>
+
+                      <li className="nav-item " > 
+                        <a className="nav-link" href="">Manufacturing</a>
+                      </li>
+
+                      <li className="nav-item " > 
+                        <a className="nav-link" href="">Media</a>
+                      </li>
+
+                      <li className="nav-item " > 
+                        <a className="nav-link" href="">Professional Services</a>
+                      </li>
+
+                    </ul>
+
+                    
+                  </div>
+
                 </li>
 
                 <li className="nav-item p-2">
@@ -142,40 +185,83 @@ function Navbar(props) {
 
               </ul>
 
-              <form className="d-flex">
-                <ul className="navbar-nav me-auto">
+              <form className="d-flex ">
+                <ul className="navbar-nav me-auto ">
 
-                <li className="nav-item ">
+                <li className="nav-item contact p-1 ">
                   <a className="nav-link" href="javascript:void(0)">Contact</a>
+
+                  <div className="container contact_1"> 
+                     <ul className="navbar-nav me-auto mt-1 ">
+
+                      <li className="nav-item ms-2 h6 " > 
+                        Support
+                      </li>
+
+                      <li className="nav-item " > 
+                        <a className="nav-link" href="">Help Center</a>
+                      </li>
+
+                      <li className="nav-item " > 
+                        <a className="nav-link" href="">Community forums </a>
+                      </li>
+
+                    </ul> 
+                     <ul className="navbar-nav me-auto mt-1 ">
+
+                      <li className="nav-item ms-2 h6 " > 
+                        Contact Sales
+                      </li>
+
+                      <li className="nav-item " > 
+                        <a className="nav-link" href="">Email</a>
+                      </li>
+
+                      <li className="nav-item " > 
+                        <a className="nav-link" href="">+1 855-237-6726</a>
+                      </li>
+                    </ul>
+
+                    
+                  </div>
                 </li>
 
-                <li className="nav-item ">
+                <li className="nav-item p-1 get_app ">
                   <a className="nav-link" href="javascript:void(0)">Get app</a>
+
+                  <div className="container get_app_1"> 
+                     <ul className="navbar-nav me-auto mt-1 ">
+
+                      <li className="nav-item " > 
+                        <a className="nav-link" href="">Desktop app</a>
+                      </li>
+
+                      <li className="nav-item " > 
+                        <a className="nav-link" href="">Mobile app </a>
+                      </li>
+
+                    </ul>  
+                  </div>
                 </li>
 
-                <li className="nav-item ">
-                  <a className="nav-link" href="javascript:void(0)">Sign up</a>
+                <li className="nav-item p-1">
+                  <a className="nav-link" href="">Sign up</a>
                 </li>
 
-                <li className="nav-item ">
-                  <a className="nav-link" href="javascript:void(0)">Login</a>
+                <li className="nav-item p-1">
+                  <a className="nav-link" href="">Login</a>
                 </li>
                 </ul>
 
-                <button className="btn btn-primary pe-5" type="button">Get started <i class="fa-thin fa-arrow-right"></i> </button>
+                <button className="btn btn-primary pe-4 " type="button"><b>Get started</b>
+                 <i class="fa fa-long-arrow-right ps-3" aria-hidden="true"></i> </button>
               </form>
               
             </div>
           </div>
 </nav>
 
-  <div className="class">
-
-  </div>
-
-
-
-        </>
+       </>
     );
 }
 

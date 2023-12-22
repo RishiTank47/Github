@@ -12,10 +12,18 @@ function Nav_Product(props) {
                     console.log(res); 
                     return(
                         <div className=" d-flex " > 
-                        
+
+                        <div className=' mt-1 product_2 '>
                         <img src={res.image} alt="" />
-                                 
-                        </div> 
+                        </div>    
+
+                        <div className='ms-3'>
+                        <span className=' ' >{res.title}</span> 
+                        <p className=''>{res.title_1}</p> 
+                        </div>
+
+                        </div>
+                       
                     )
                 })
             }

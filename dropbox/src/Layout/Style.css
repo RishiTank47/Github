@@ -5,7 +5,7 @@ img
 }
 .navbar
 {
-    /* height: 50px; */
+    height: 50px;
 }
 .navbar-brand
 {
@@ -21,18 +21,11 @@ img
 }
 .drop_icon:hover
 {
-    color: white;
+    color: black;
 }
 .navbar_ul a 
 {
     color: black!important;
-}
-.class 
-{
-    height: 800px;
-    /* background-color: #1E1919; */
-   
-    background-color: aqua;
 }
 .why_dropebox_0 
 {
@@ -48,7 +41,6 @@ img
     width: 350%;
     left: 0px;
     top: 53px;
-
 }
 .why_dropebox ul 
 {
@@ -76,13 +68,109 @@ img
 {
     position: absolute; 
     width: 250%;
-    left: -12px;
+    left: 0px;
     top: 53px;
+    background-color: #F8F5F2;
+    display: none;
 } 
 .product_1  p 
 {
     font-size: 12px;
-    /* background-color: #F8F5F2; */
+}
+.product_2
+{
+   width: 20%; 
+}
+.product:hover .product_1
+{
+    display: block;
+}
+.solution 
+{
+    position: relative;
+}
+.solution_1   
+{
+    position: absolute;
+    width: 500%;
+    left: 0px;
+    top: 53px;
+}
+.solution_1 ul 
+{
+    display: block;
+    font-size: 13px;
+}
+.solution_1
+{
+    background-color: #F8F5F2;
+    display: none;
+}
+.solution_1 a:hover 
+{
+    background-color: #dcd9d4;
+}
+.solution:hover .solution_1 
+{
+   display: flex;
+}
+.contact 
+{
+    position: relative;
+}
+.contact_1   
+{
+    position: absolute;
+    width: 500%;
+    right: 0px;
+    top: 48px;
+}
+.contact_1 ul 
+{
+    display: block;
+    font-size: 13px;
+}
+.contact_1
+{
+    background-color: #F8F5F2;
+    display: none;
+}
+.contact_1 a:hover 
+{
+    background-color: #dcd9d4;
+}
+.contact:hover .contact_1 
+{
+   display: flex;
+}
+.get_app 
+{
+    position: relative;
+}
+.get_app_1   
+{
+    position: absolute;
+    width: 250%;
+    right: 0px;
+    top: 48px;
+}
+.get_app ul 
+{
+    display: block;
+    font-size: 13px;
+}
+.get_app_1
+{
+    background-color: #F8F5F2;
+    display: none;
+}
+.get_app_1 a:hover 
+{
+    background-color: #dcd9d4;
+}
+.get_app:hover .get_app_1 
+{
+   display: flex;
 }
 
 
