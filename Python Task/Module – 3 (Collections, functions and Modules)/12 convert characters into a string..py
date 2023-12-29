@@ -2,6 +2,6 @@
 
 characters = ['a', 'b', 'c', 'd', 'e'] 
 
-result_string=''.join(characters)
+result_string=''.join(characters) 
 
 print(result_string)

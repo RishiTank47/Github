@@ -10,4 +10,4 @@ element_to_check = "banana"
 if element_to_check in tuple:
     print("The element exists in the tuple.")
 else:
-    print("The element does not exist in the tuple.")
+    print("The element does not exist in the tuple.") 

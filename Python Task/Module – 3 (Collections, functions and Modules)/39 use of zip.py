@@ -7,4 +7,6 @@ the zip() is used to combine elements from multiple iterables
 1.Iterating Over Multiple Iterables Simultaneously
 2.Creating Pairs or Tuples
 3.Transposing Data
-4.Combining Multiple Iterables into a Dictionary'''
+4.Combining Multiple Iterables into a Dictionary
+
+'''

@@ -6,4 +6,4 @@ values=['1','Rishi','python']
 
 combine_dic=dict(zip(keys,values))
 
-print(combine_dic)
+print(combine_dic) 

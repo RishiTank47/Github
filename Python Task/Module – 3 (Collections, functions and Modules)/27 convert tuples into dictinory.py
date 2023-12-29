@@ -2,6 +2,9 @@
 
 tuples = [("a", 1), ("b", 2), ("c", 3)]
 
-dict_from_tuples = {key: value for key, value in tuples}
+dic={}
 
-print( dict_from_tuples)
+for k,v in tuples:
+    dic[k]=v
+
+print(dic)

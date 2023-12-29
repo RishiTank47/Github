@@ -1,9 +1,9 @@
 # program to convert a tuple to a string.
 
-tuple = (1, "apple", 3.14, True)
+tuple1 = (1, True, 3, 'd')
 
 
-string = str(tuple)
+string1 =list(tuple1)
 
-
-print(string)
+for i in string1:
+    print(i,end='')
