@@ -9,4 +9,6 @@ if lines_to_read  > 17:
 else:
     file=open("read_last_n_line.txt","r")
     for i in range(lines_to_read):
-        print(f"\nline{i}:-",file.readline()) 
+       file_1=file.readlines()
+       print(file_1[-lines_to_read:])
+       break
