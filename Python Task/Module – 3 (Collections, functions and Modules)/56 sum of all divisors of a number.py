@@ -7,4 +7,4 @@ for i in range(1, input_number + 1):
     if input_number % i == 0:
         divisor_sum += i
 
-print(divisor_sum)
+print(divisor_sum) 
